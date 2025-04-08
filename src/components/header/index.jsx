@@ -3,8 +3,6 @@ import styles from './header.module.css';
 const Header = () => {
 
   return (
-    <html>
-      <body>
         <header className={styles.header}>
           <div className={styles.logo}>
             <h1>MemeVerse</h1>
@@ -27,8 +25,8 @@ const Header = () => {
             </button>
           </div>
         </header>
-      </body>
-    </html>
+    
+  
   );
 
 }

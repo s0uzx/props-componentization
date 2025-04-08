@@ -1,6 +1,6 @@
 import styles from './heroSection.module.css';
 
-const HeroSection = () => {
+const HeroSection = ({memeOfTheDay}) => {
   return (
     <section className={styles.heroSection}>
             <div className={styles.heroContent}>

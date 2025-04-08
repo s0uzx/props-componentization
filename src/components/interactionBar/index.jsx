@@ -1,4 +1,4 @@
-import styles from '../interactionBar.module.css';
+import styles from './interactionBar.module.css';
 
 const InteractionBar = () => {
   return (
